@@ -1,5 +1,8 @@
 FROM parana/centos7-openjdk8
 MAINTAINER João Paraná - joao.parana@gmail.com
+
+ENV REFRESHED_AT 2016-07-13
+
 ENV TOMCAT_VERSION 8.0.36
 ENV ARCHIVE apache-tomcat-${TOMCAT_VERSION}
 ENV INSTALL_DIR /usr/local
@@ -13,4 +16,3 @@ ENV DEPLOYMENT_DIR ${SERVER_HOME}/webapps/
 # ENTRYPOINT ${INSTALL_DIR}/tomcat/bin/catalina.sh run
 EXPOSE 8080
 CMD ["bash"]
-
