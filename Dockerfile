@@ -1,7 +1,7 @@
 FROM parana/centos7-openjdk8
 MAINTAINER João Paraná - joao.parana@gmail.com
 
-ENV REFRESHED_AT 2016-07-13
+ENV REFRESHED_AT 2016-07-14
 
 ENV TOMCAT_VERSION 8.0.36
 ENV ARCHIVE apache-tomcat-${TOMCAT_VERSION}
